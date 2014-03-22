@@ -58,7 +58,7 @@
              {
              xtype: "numberfield",
              name: "showlastsong",
-             fieldLabel: "Last Song Count",
+             fieldLabel: "Number of Last Song's to Show",
              allowDecimals: false,
              }]
           }];
