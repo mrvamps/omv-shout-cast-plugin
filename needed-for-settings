@@ -1,0 +1,31 @@
+ShoutCast DNAS OMV Plugin Settings Needed.
+
+MAXUSER
+-numberfield 
+
+PASSWORD
+-textfield
+
+PORTBASE
+-numberfield
+
+SrcIP
+-numberfield-IP based
+
+DestIP
+-numberfield-IP based
+
+Yport (enable or disable)
+-check box on or off
+
+NameLookUp 0 or 1
+-check box yes or no
+
+AdminPassword
+-textfield
+
+PublicServer (always,never,default)
+-check box or drop down
+
+ShowLastSongs (1-20)
+-numberfield with min and max or drop down
