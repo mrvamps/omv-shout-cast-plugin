@@ -20,11 +20,46 @@
              },
              {
              xtype: "numberfield", // Type of the item
-             name: "numberfield1", // Individual name of the item
-             fieldLabel: "Number", // Text that is shown next to the number field. Keep this under 15 characters
-             minValue: 0, // Self explanatory
+             name: "maxuser", // Individual name of the item
+             fieldLabel: "Max User", // Text that is shown next to the number field. Keep this under 15 characters
+             minValue: 1, // Self explanatory
              allowDecimals: false, // Self explanatory
-             allowBlank: true // Self explanatory
+             allowBlank: false // Self explanatory
+             },
+             {
+             xtype: "textfield",
+             name: "password",
+             fieldLabel: "Connection Password",
+             allowBlank: false,
+             },
+             {
+             xtype: "numberfield",
+             name: "portbase",
+             fieldLabel: "Listen To Port",
+             minValue: 1,
+             maxValue: 65535,
+             allowDecimals: false,
+             allowBlank: false,
+             },
+             {
+             xtype: "numberfield",
+             name: "namelookup",
+             fieldLabel: "Name Lookups",
+             allowBlank: false,
+             minValue: 0,
+             maxValue: 1,
+             },
+             {
+             xtype: "textfield",
+             name: "adminpassword",
+             fieldLabel: "Admin Password",
+             allowBlank: false,
+             },
+             {
+             xtype: "numberfield",
+             name: "showlastsong",
+             fieldLabel: "Last Song Count",
+             allowDecimals: false,
              }]
           }];
     }
