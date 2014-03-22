@@ -48,7 +48,7 @@
               // Information is shown in Diagnostics/Services
               return array(
                   "name" => $this->getName(),
-                  "title" => gettext("First Plugin"),
+                  "title" => gettext("ShoutCast"),
                   "enabled" => boolval($object['enable']),
                   "running" => ("running")
               );
