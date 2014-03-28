@@ -54,6 +54,8 @@
              name: "showlastsong",
              fieldLabel: "Number of Last Song's to Show",
              allowDecimals: false,
+             minValue: 1,
+             maxValue: 20,
              }]
           }];
     }
