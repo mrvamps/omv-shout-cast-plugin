@@ -5,3 +5,4 @@
     icon16: "images/ftp.png", // 16x16 pixel icon that is displayed in the navigation view
     iconSvg: "images/ftp.svg" // SVG icon that is displayed in the navigation view
     });
+
