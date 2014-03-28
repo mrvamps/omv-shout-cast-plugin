@@ -1,29 +1,29 @@
-    #!/bin/sh
+#!/bin/sh
 
-    set -e
+set -e
 
-    . /etc/default/openmediavault
-    . /usr/share/openmediavault/scripts/helper-functions
+. /etc/default/openmediavault
+. /usr/share/openmediavault/scripts/helper-functions
 
 
-    case "$1" in
-        configure)
-       if ! omv_config_exists "/config/services/shoutcast"; then
-           echo "Initialize configuration"
-           object="<enable>0</enable>"
-           object="${object}<numberfield1>827</numberfield1>"
-           omv_config_add_element "/config/services" "shoutcast" "${object}" true
-       fi
+case "$1" in
+    configure)
+   if ! omv_config_exists "/config/services/shoutcast"; then
+       echo "Initialize configuration"
+       object="<enable>0</enable>"
+       object="${object}<numberfield1>827</numberfield1>"
+       omv_config_add_element "/config/services" "shoutcast" "${object}" true
+   fi
 
-        ;;
+    ;;
 
-        abort-upgrade|abort-remove|abort-deconfigure)
-        ;;
+abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
 
-        *)
-            echo "postinst called with unknown argument \`$1'" >&2
-            exit 1
-        ;;
-    esac
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+    exit 1
+    ;;
+esac
 
-    exit 0
+exit 0
