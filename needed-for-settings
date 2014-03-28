@@ -25,7 +25,9 @@ AdminPassword
 -textfield
 
 PublicServer (always,never,default)
--check box or drop down
+-check box 
+-drop down
 
 ShowLastSongs (1-20)
--numberfield with min and max or drop down
+-numberfield with min and max 
+-drop down menu
