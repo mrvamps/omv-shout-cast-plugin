@@ -25,7 +25,7 @@
              allowDecimals: false, // Self explanatory
              allowBlank: false // Self explanatory
              },{
-             xtype: "textfield",
+             xtype: "passwordfield",
              name: "password",
              fieldLabel: "Connection Password",
              allowBlank: false,
@@ -33,7 +33,7 @@
              xtype: "numberfield",
              name: "portbase",
              fieldLabel: "Listen To Port",
-             minValue: 1,
+             minValue: 1024,
              maxValue: 65535,
              allowDecimals: false,
              allowBlank: false,
@@ -45,7 +45,7 @@
              minValue: 0,
              maxValue: 1,
              },{
-             xtype: "textfield",
+             xtype: "passwordfield",
              name: "adminpassword",
              fieldLabel: "Admin Password",
              allowBlank: false,
