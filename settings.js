@@ -17,22 +17,19 @@
              name: "enable", // Individual name of the item
              fieldLabel: _("Enable"), // Text that is shown next to the checkbox. Keep this under 15 characters
              checked: false // Default value if no settings have been applied yet, Try to change this to true
-             },
-             {
+             },{
              xtype: "numberfield", // Type of the item
              name: "maxuser", // Individual name of the item
              fieldLabel: "Max User", // Text that is shown next to the number field. Keep this under 15 characters
              minValue: 1, // Self explanatory
              allowDecimals: false, // Self explanatory
              allowBlank: false // Self explanatory
-             },
-             {
+             },{
              xtype: "textfield",
              name: "password",
              fieldLabel: "Connection Password",
              allowBlank: false,
-             },
-             {
+             },{
              xtype: "numberfield",
              name: "portbase",
              fieldLabel: "Listen To Port",
@@ -40,22 +37,19 @@
              maxValue: 65535,
              allowDecimals: false,
              allowBlank: false,
-             },
-             {
+             },{
              xtype: "numberfield",
              name: "namelookup",
              fieldLabel: "Name Lookups",
              allowBlank: false,
              minValue: 0,
              maxValue: 1,
-             },
-             {
+             },{
              xtype: "textfield",
              name: "adminpassword",
              fieldLabel: "Admin Password",
              allowBlank: false,
-             },
-             {
+             },{
              xtype: "numberfield",
              name: "showlastsong",
              fieldLabel: "Number of Last Song's to Show",
